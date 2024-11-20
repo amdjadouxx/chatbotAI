@@ -63,7 +63,7 @@ class ModelBuilder:
             tf.keras.layers.Dense(8, activation='relu'),
             tf.keras.layers.Dense(output_shape, activation='softmax')
         ])
-        model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001), loss='categorical_crossentropy', metrics=['accuracy'])
+        model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.01), loss='categorical_crossentropy', metrics=['accuracy'])
         return model
 
 class Trainer:
