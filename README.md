@@ -25,5 +25,6 @@ This project aims to create a chatbot that can interact with users in a natural 
 
 4. use the model:
     ```
+        python3 train.py
         python3 use.py
     ```
